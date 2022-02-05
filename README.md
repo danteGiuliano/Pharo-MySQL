@@ -8,13 +8,15 @@
 
 Pharo Drivers for MySQL and MariaDB, including a [Glorp](https://github.com/pharo-rdbms/Glorp) adaptor.
 
+implementation Dante (:
+
 # Quick Start
 
 ## Installation
 
 ```Smalltalk
 Metacello new
-	repository: 'github://pharo-rdbms/Pharo-MySQL';
+	repository: 'github://danteGiuliano/Pharo-MySQL';
 	baseline: 'MySQL';
 	load
 ```
